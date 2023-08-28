@@ -1,4 +1,4 @@
-module bgdatastructures
+module github.com/sdavidson15/bgdatastructures
 
 go 1.20
 
