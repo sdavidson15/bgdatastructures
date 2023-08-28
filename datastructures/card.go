@@ -31,6 +31,7 @@ func (cards Cards) GetUUIDs() []string {
 	return uuids
 }
 
+// Create a new card
 func NewCard(name *string, value int, suit string) Card {
 	return &BaseCard{
 		Structure: *NewStructure(name),
